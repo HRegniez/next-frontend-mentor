@@ -1,0 +1,32 @@
+# .cursorrules
+
+# Define the framework and libraries used
+framework: nextjs
+framework-docs: https://nextjs.org/docs
+libraries:
+  - shadcn-ui
+    docs: https://ui.shadcn.com/docs
+  - radix
+    docs: https://www.radix-ui.com/themes/docs/overview/getting-started
+  - tailwind
+    docs: https://tailwindcss.com/docs/installation
+
+
+# Define the file structure
+structure:
+  - pages
+  - components
+  - public
+
+# Define the best practices
+best-practices:
+  - keep components small and focused
+  - use Radix for accessible UI components
+  - use Shadcn-UI for consistent styling
+  - optimize images and assets in the public folder
+  - use environment variables for configuration
+
+# Define the deployment strategy
+deployment:
+  - use Vercel for deployment
+
